@@ -293,7 +293,7 @@ an example configuration would be:
   $('#myTable').fantabular({
     mobile_class: 'show-on-mobile',
     desktop_class: 'hide-on-mobile',
-    inherit_classes: false;
+    inherit_classes: false
   });
 ```
 
