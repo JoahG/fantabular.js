@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Fantabular.js : easily responsivify your tables.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Fantabular.js</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/JoahG/fantabular.js">View on GitHub</a>
+
+          <h1 id="project_title">Fantabular.js</h1>
+          <h2 id="project_tagline">easily responsivify your tables.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/JoahG/fantabular.js/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/JoahG/fantabular.js/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a id="what-it-does" class="anchor" href="#what-it-does" aria-hidden="true"><span class="octicon octicon-link"></span></a>what it does:</h3>
+
+<p>for mobile views, to make tables responsive, fantabular.js turns this:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        header 1
+      </th>
+      <th>
+        header 2
+      </th>
+      <th>
+        header 3
+      </th>
+      <th>
+        header 4
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        data 1
+      </td>
+      <td>
+        data 2
+      </td>
+      <td>
+        data 3
+      </td>
+      <td>
+        data 4
+      </td>
+    </tr>
+    <tr>
+      <td>
+        data 1
+      </td>
+      <td>
+        data 2
+      </td>
+      <td>
+        data 3
+      </td>
+      <td>
+        data 4
+      </td>
+    </tr>
+    <tr>
+      <td>
+        data 1
+      </td>
+      <td>
+        data 2
+      </td>
+      <td>
+        data 3
+      </td>
+      <td>
+        data 4
+      </td>
+    </tr>
+    <tr>
+      <td>
+        data 1
+      </td>
+      <td>
+        data 2
+      </td>
+      <td>
+        data 3
+      </td>
+      <td>
+        data 4
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>into this:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <strong>header 1</strong>
+              </td>
+              <td>
+                data 1
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>header 2</strong>
+              </td>
+              <td>
+                data 2
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>header 3</strong>
+              </td>
+              <td>
+                data 3
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>header 4</strong>
+              </td>
+              <td>
+                data 4
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <strong>header 1</strong>
+              </td>
+              <td>
+                data 1
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>header 2</strong>
+              </td>
+              <td>
+                data 2
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>header 3</strong>
+              </td>
+              <td>
+                data 3
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>header 4</strong>
+              </td>
+              <td>
+                data 4
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <strong>header 1</strong>
+              </td>
+              <td>
+                data 1
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>header 2</strong>
+              </td>
+              <td>
+                data 2
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>header 3</strong>
+              </td>
+              <td>
+                data 3
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>header 4</strong>
+              </td>
+              <td>
+                data 4
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <strong>header 1</strong>
+              </td>
+              <td>
+                data 1
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>header 2</strong>
+              </td>
+              <td>
+                data 2
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>header 3</strong>
+              </td>
+              <td>
+                data 3
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>header 4</strong>
+              </td>
+              <td>
+                data 4
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>
+<a id="dependencies" class="anchor" href="#dependencies" aria-hidden="true"><span class="octicon octicon-link"></span></a>dependencies</h3>
+
+<p><code>fantabular.js</code> requires jQuery to be loaded into the project to run properly.</p>
+
+<hr>
+
+<h3>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>usage</h3>
+
+<p>call <code>.fantabular()</code> on any <code>table</code> using jQuery. for example:</p>
+
+<div class="highlight highlight-javascript"><pre>  $(<span class="pl-s1"><span class="pl-pds">'</span>#myTable<span class="pl-pds">'</span></span>).fantabular();</pre></div>
+
+<hr>
+
+<h3>
+<a id="configuration" class="anchor" href="#configuration" aria-hidden="true"><span class="octicon octicon-link"></span></a>configuration</h3>
+
+<p>you can optionally pass in an options object into the function invocation:</p>
+
+<div class="highlight highlight-javascript"><pre>  $(<span class="pl-s1"><span class="pl-pds">'</span>#myTable<span class="pl-pds">'</span></span>).fantabular({
+    <span class="pl-c">/* options here.. */</span>
+  });</pre></div>
+
+<p>the following options are available:</p>
+
+<ul>
+<li> <code>mobile_class</code>: <code>String</code> - class to apply to the mobile version of the table. able to be used to show/hide using <code>@media</code> queries in CSS according to viewport breakpoints. defaults to <code>'visible-xs'</code>.</li>
+<li> <code>desktop_class</code>: <code>String</code> - class to apply to the desktop version of the table. able to be used similarly to <code>mobile_class</code>. defaults to <code>'hidden-xs'</code>.</li>
+<li> <code>selector</code>: <code>String</code> - selector to search for inside the called upon object to override the call on the object. for example,  <code>$('body').fantabular({ selector: 'table' });</code> would call <code>.fantabular()</code> on all the <code>table</code>s inside <code>body</code>.</li>
+<li> <code>inherit_classes</code>: <code>Boolean</code> - turns class inheritance on/off from the desktop version of the table to the mobile version of the table. defaults to <code>true</code>.</li>
+</ul>
+
+<p>an example configuration would be:</p>
+
+<div class="highlight highlight-javascript"><pre>  $(<span class="pl-s1"><span class="pl-pds">'</span>#myTable<span class="pl-pds">'</span></span>).fantabular({
+    mobile_class<span class="pl-k">:</span> <span class="pl-s1"><span class="pl-pds">'</span>show-on-mobile<span class="pl-pds">'</span></span>,
+    desktop_class<span class="pl-k">:</span> <span class="pl-s1"><span class="pl-pds">'</span>hide-on-mobile<span class="pl-pds">'</span></span>,
+    inherit_classes<span class="pl-k">:</span> <span class="pl-c1">false</span>
+  });</pre></div>
+
+<hr>
+
+<h3>
+<a id="author" class="anchor" href="#author" aria-hidden="true"><span class="octicon octicon-link"></span></a>author</h3>
+
+<p><code>fantabular.js</code> is written and maintained by Joah Gerstenberg (<a href="https://github.com/joahg" class="user-mention">@joahg</a>), Copyright 2015 under the MIT License.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Fantabular.js maintained by <a href="https://github.com/JoahG">JoahG</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-45765973-10");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
