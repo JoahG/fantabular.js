@@ -53,6 +53,6 @@
       $(this).wrap('<div class="' + $opt.desktop_class + '"></div>').parent().after($h);
     });
 
-    return true;
+    return $(this);
   }
 })(jQuery)
