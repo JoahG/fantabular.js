@@ -283,7 +283,7 @@ you can optionally pass in an options object into the function invocation:
 the following options are available:
 
   -  `mobile_class`: `String` - class to apply to the mobile version of the table. able to be used to show/hide using `@media` queries in CSS according to viewport breakpoints. defaults to `'visible-xs'`.
-  -  `desktop_class`: `String` - class to apply to the desktop version of the table. able to be used similarly to `mobile_class`. defaults to `'hidden-xs'`
+  -  `desktop_class`: `String` - class to apply to the desktop version of the table. able to be used similarly to `mobile_class`. defaults to `'hidden-xs'`.
   -  `selector`: `String` - selector to search for inside the called upon object to override the call on the object. for example,  `$('body').fantabular({ selector: 'table' });` would call `.fantabular()` on all the `table`s inside `body`.
   -  `inherit_classes`: `Boolean` - turns class inheritance on/off from the desktop version of the table to the mobile version of the table. defaults to `true`.
 
