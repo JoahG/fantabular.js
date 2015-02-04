@@ -287,6 +287,16 @@ the following options are available:
   -  `selector`: `String` - selector to search for inside the called upon object to override the call on the object. for example,  `$('body').fantabular({ selector: 'table' });` would call `.fantabular()` on all the `table`s inside `body`.
   -  `inherit_classes`: `Boolean` - turns class inheritance on/off from the desktop version of the table to the mobile version of the table. defaults to `true`.
 
+an example configuration would be:
+
+```javascript
+  $('#myTable').fantabular({
+    mobile_class: 'show-on-mobile',
+    desktop_class: 'hide-on-mobile',
+    inherit_classes: false;
+  });
+```
+
 ---
 
 ### author
